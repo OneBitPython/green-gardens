@@ -419,6 +419,69 @@
 }
 
 
+@media screen 
+  and (min-width: 500px) 
+  and (max-width: 750px) 
+{
+    .header-image img {
+      position:absolute;
+      height:0px;
+      width:0px;
+      margin-top:10px;
+      margin-left:10px;
+   }
+
+
+  .main{
+    height:2500px;
+  }
+
+  body{
+    width:100%;
+  }
+    
+  .contact{
+    margin-left:250px;
+    width:40%;
+
+  }
+
+  .contact a{
+    padding-bottom:0px;
+    font-size:20px;
+    margin-bottom:-15px;
+    padding-left:70px;  }
+
+
+
+
+  .address{
+    width:40%;
+  }
+
+  .address p{
+    margin-left:-20px;
+  }
+
+
+
+  .available{
+    margin-left:250px;
+    width:40%;
+    margin-top:150px;
+    border:3px white ridge;
+    height:550px;
+    float:left;
+  }
+
+
+  .available p{
+    margin-left:-20px;
+  }
+
+
+
+}
 
 
 
