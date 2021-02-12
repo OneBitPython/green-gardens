@@ -406,38 +406,111 @@
   and (max-width: 750px) 
   {
 
-  .header-image img{
-    height:0px;
-    width:0px;
+  #hey{
+    color: white;
+    margin-right: 10px;
+    margin:16px 0;
+    text-align:center;
+    line-height:30px;
+    padding:0px 16px 0 16px;
+    padding-left:20px;
+    float:left;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    padding-right:30px;
+    border-right:3px black solid;
   }
 
-  .location{
-    width:60%;
-    margin-left:120px;
-    height:160px;
-    border-radius:10px;
-    margin-bottom:40px;
+
+  header{
+    height:50px;
+    width:100%;
   }
 
   .main{
-    height:3700px;
-  }
-  
-  .amenity{
-    margin-left:80px;
-    height:80px;
-    width:25%;
-    float:left;
-    margin-bottom:100px;
+    height:2800px;
+    width:100%;
+    background-color:#E3E2DF;
   }
 
-  .amenity p{
+
+
+
+  .header-image img {
+    height:0px;
+    width:0px;
+    margin-left:-15px;
+    position:relative;
+  }
+
+  .image{
+    padding: 100px 50px;
+
+    }
+
+
+  .image h1{  
+    letter-spacing:4px;
+    font-size:25px;
+  }
+
+  .image p{
     font-size:20px;
   }
+
+
+
+  .about h1{
+    margin-left:15px;
+
+  }
+
+  .about p{
+    font-size:15px;
+    margin-left:15px;
+    margin-bottom:50px;
+  }
+
+
+  .name {
+    margin-left:15px;
+    color:#05386B;
+    margin-bottom:50px;
+
+  }
+
+  .location{
+    width:80%;
+    height:100px;
+    margin-left:20px;
+  }
+
+  .location p{
+    font-size:20px;
+    padding-top:30px;
+    padding-left:50px;
+  }
+
 
   .amenitytitle{
     margin:15px;
   }
+
+
+  .amenity{
+    margin-left:40px;
+    margin-right:20px;
+    height:50px;
+    width:25%;
+  }
+
+  .amenity p{
+    font-size:10px;
+    font-weight:bold;
+    margin-top:10px;
+
+  }
+
 }
 
 
