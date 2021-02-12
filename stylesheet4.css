@@ -208,10 +208,6 @@
   border:3px black ridge;
 }
 
-.contact:hover a{
-  background-color:black;
-  color:white;
-}
 
 
 .contact a:hover{
@@ -225,32 +221,18 @@
 }
 
 .contact a{
-  text-decoration:none;
-  color:black;
-  display:block;
-  margin-left:135px;
-  margin-right:130px;
-  padding-left:13px;
-  margin-top:30px;
-  height:40px;
-  padding-top:10px;
-  background-color:white;
-  border:none;
-  transition-property:background-color color opacity;
-  transition-duration:1.5s; 
+  padding-bottom:0px;
+  font-size:20px;
+  margin-bottom:-15px;
+  padding-left:130px;
+  color:white;
 }
 
 .contact h1{
   font-size:40px;
   text-align:center;
 }
-.contact p{
-  padding-bottom:0px;
-  font-size:20px;
-  margin-bottom:-15px;
-  padding-left:130px;
 
-}
 
 .address{
   background-color:#05386B;
@@ -384,17 +366,12 @@
   }
 
   .contact a{
-    margin-left:60px;
-    margin-right:70px;
-    height:50px;
-  }
-  .contact p{
     padding-bottom:0px;
     font-size:20px;
     margin-bottom:-15px;
     margin-left:-90px;
-
   }
+
 
   .address{
     margin-left:50px;
@@ -496,31 +473,15 @@
   }
 
   .contact a{
-    text-decoration:none;
-    color:black;
-    display:block;
-    margin-left:135px;
-    margin-right:130px;
-    padding-left:13px;
-    margin-top:30px;
-    height:40px;
-    padding-top:10px;
-    background-color:white;
-    border:none;
-    transition-property:background-color color opacity;
-    transition-duration:1.5s; 
+    padding-bottom:0px;
+    font-size:20px;
+    margin-bottom:-15px;
+    text-align:center;
   }
 
   .contact h1{
     font-size:40px;
     text-align:center;
-  }
-  .contact p{
-    padding-bottom:0px;
-    font-size:20px;
-    margin-bottom:-15px;
-    text-align:center;
-
   }
 
   .address{
@@ -622,23 +583,19 @@
 
   .contact:hover{
     margin-top:130px;
-    background-color:white;
+    background-color:#5CDB95;
     border:3px black ridge;
   }
 
 
   .contact a{
-    margin-left:160px;
-    margin-right:150px;
-  }
-
-.contact p{
   padding-bottom:0px;
   font-size:20px;
   margin-bottom:-15px;
   padding-left:150px;
+  }
 
-}
+
 
 .address{
   width:30%;
@@ -724,17 +681,10 @@
  
 
   .contact a{
-    margin-left:80px;
-    margin-right:130px;
-    padding-left:13px;
-    margin-top:30px;
-    height:60px;
-    width:70px;
-    padding-top:10px;
-    background-color:white;
-    border:none;
-    transition-property:background-color color opacity;
-    transition-duration:1.5s; 
+    padding-bottom:0px;
+    font-size:20px;
+    margin-bottom:-15px;
+    padding-left:50px;
   }
 
   .contact a:hover{
@@ -752,13 +702,7 @@
     font-size:40px;
     text-align:center;
   }
-  .contact p{
-    padding-bottom:0px;
-    font-size:20px;
-    margin-bottom:-15px;
-    padding-left:50px;
 
-  }
 
   .address{
     color:white;
@@ -868,18 +812,15 @@
   }
 
   .contact a{
-    height:50px;
-  }
-
-
-
-  .contact p{
-    padding-bottom:0px;
+      padding-bottom:0px;
     font-size:20px;
     margin-bottom:-15px;
-    padding-left:100px;
-
+    padding-left:130px;
   }
+
+
+
+
 
 
   .address{
@@ -936,24 +877,21 @@
   }
 
   .contact a{
-    height:50px;
-    width:70px;
-  }
-
-
-
-  .contact p{
     padding-bottom:0px;
     font-size:20px;
     margin-bottom:-15px;
-    padding-left:40px;
+    padding-left:70px;  }
 
-  }
+
+
 
   .address{
     width:40%;
   }
 
+  .address p{
+    margin-left:-20px;
+  }
 
 
 
@@ -967,6 +905,9 @@
   }
 
 
+  .available p{
+    margin-left:-20px;
+  }
 
 }
   
