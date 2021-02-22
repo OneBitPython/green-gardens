@@ -2,7 +2,10 @@
   font-size:25px;
 }
 
-
+#img2{
+  margin-left:60px;
+  margin-top:50px;
+}
 
 .item a:hover{
   color:red;
@@ -534,6 +537,11 @@
 
 
 @media only screen and (min-width:1200px) and (max-width: 1600px){
+
+  #img2{
+    margin-left:60px;
+    margin-top:50px;
+  }
 
   .header-image img{
     position:absolute;
