@@ -553,7 +553,9 @@
 
 
 
-
+  .main{
+    height:2200px;
+  }
 
   .about h1{
     margin-left:30px;
@@ -760,7 +762,7 @@
   }
 
   .main{
-    height:3000px;
+    height:2600px;
   }
 
   .about h1{
